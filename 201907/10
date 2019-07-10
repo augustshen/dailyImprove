@@ -1,0 +1,8 @@
+docker拉镜像一定要设国内的。官方的那个地址，不好使。
+我有阿里云的账号，登录之后，到容器镜像服务，找到镜像服务器地址，配置一下。
+vim /etc/docker/daemon.json
+
+service docker restart  即可生效。
+
+重新去拉镜像，速度如飞。
+
